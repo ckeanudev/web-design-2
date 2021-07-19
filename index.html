@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neish</title>
+    <link rel="shortcut icon" href="./IMG/favicon.png" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-links">
+            <a  onclick="intro()"><i class="fas fa-home"></i></a>
+            <a  onclick="about()"><i class="fas fa-user"></i></a>
+            <a  onclick="games()"><i class="fas fa-dice-d6"></i></a>
+            <a  onclick="contact()"><i class="fas fa-mobile-alt"></i></a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <section class="intro-section" id="intro-section">
+            <div class="content intro">
+                <div class="intro-col-1">
+                    <h1>Hello</h1>
+                    <h1>I'm Neish</h1>
+                    <h3>Gamer / Student </h3>
+                    <p>Currently preparing to be a streamer</p>
+                </div>
+                <div class="intro-col-2">
+                    <img src="./IMG/gamer.png" alt="">
+                    <div class="link-social">
+                        <a href="https://www.facebook.com/Mrfdalr-100466575576982" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/mrfdalr/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        <a href=""><i class="fab fa-youtube-square"></i></a>
+                        <a href="https://steamcommunity.com/profiles/76561198305653009/?fbclid=IwAR27Lr-LvPbnehb6fWPTaP1pg9oS0YCRRe0bLe756gp-LHEug80z4Rq6E7M" target="_blank"><i class="fab fa-steam-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section" id="about-section">
+            <div class="content about">
+                <div class="about-col-1">
+                    <h1>About me</h1>
+                    <P>Hi there, I'm Morfydd T. Alar also know as "Neish",
+                        a 20 years old computer science student in the Philippines. I just started streaming recently on facebook
+                    but it's not yet good enough since I still don't have the enough equipments for streaming.</P>
+                </div>
+                <div class="about-col-2">
+                    <img src="./IMG/my-pic.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="games-section" id="games-section">
+            <div class="content games">
+                <h1>Games i Play</h1>
+                <div class="games-grid">
+                    <div class="games-col">
+                        <img src="./IMG/valorant-pic.jpg" alt="">
+                        <div class="description">
+                            <h3>Valorant</h3>
+                            <p><i class="fas fa-id-badge"></i> Niesh#0905</p>
+                        </div>
+                    </div>
+                    <div class="games-col">
+                        <img src="./IMG/dota2-pic.jpg" alt="">
+                        <div class="description">
+                            <h3>Dota 2</h3>
+                            <p><i class="fas fa-id-badge"></i> 345387281</p>
+                        </div>
+                    </div>
+                    <div class="games-col">
+                        <img src="./IMG/csgo-pic.jpg" alt="">
+                        <div class="description">
+                            <h3>CS:GO</h3>
+                            <p><i class="fas fa-id-badge"></i> 345387281</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="contact-section" id="contact-section">
+            <div class="content contact">
+                <div class="contact-col-1">
+                    <h1>Contact Me</h1>
+                    <div class="contact-descrip">
+                        <p><i class="fas fa-envelope"></i> morfyddalarmorfydd@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i> 0966-541-8087</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Vitaliano Agan Street, Zamboanga City, Philippines</p>
+                        <p><i class="fab fa-discord"></i> Neish # 9748</p>
+                    </div>
+                </div>
+                <div class="contact-col-2">
+                    <form name="form contact" class="contact-form" netlify>
+                        <input type="text" class="contact-name" name="contact_name:" placeholder="Enter your name" required>
+                        <input type="email" class="contact-name" name="contact_email:" placeholder="Enter your email" required>
+                        <input type="text" class="contact-name" name="contact_subject:" placeholder="Enter your subject" required>
+                        <textarea id="" class="contact-textarea" name="contact_message:" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <button type="submit" class="contact-btn">Send Message</button>   
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
